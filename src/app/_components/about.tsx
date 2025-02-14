@@ -3,6 +3,7 @@
 import Image from "next/image";
 import aboutImg from "../../../public/about-1.png";
 import dynamic from "next/dynamic";
+import { MapPin, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 const Check = dynamic(() => import("@phosphor-icons/react").then((mod) => mod.Check), {
   ssr: false,
@@ -11,7 +12,9 @@ const Check = dynamic(() => import("@phosphor-icons/react").then((mod) => mod.Ch
 export function About() {
   return (
     <section className="bg-[#fdf6ec] py-16">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="container px-4 mx-auto">
+
+        <div grid-cols-1 lg:grid-cols-2 gap-12 items-center>
         <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden">
           <Image
             src={aboutImg}
@@ -24,7 +27,7 @@ export function About() {
           />
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-6 mt-10">
           <h2 className="text-4xl font-bold">Sobre a P&B Casa de Rações</h2>
           <p>
             Desde 2015, a P&B Casa de Rações tem sido referência no fornecimento de alimentos, acessórios e cuidados para
@@ -85,12 +88,31 @@ export function About() {
                 
                 </div>
             </div>
-            </li>          
-                                       
-            
+            </li>            
 
           </ul>
+          <div className="flex gap-3">
+          <a href="#"
+                    className="bg-orange-500 text-white px-5 py-2 rounded-md font-semibold flex items-center
+                     justify-center w-fit gap-2 "
+                     >
+                       <WhatsappLogo className="w-5 h-5"/>
+                    Contato via whatsapp
+                    </a>
+          <a href="#"
+                    className=" text-black px-5 py-2 rounded-md font-semibold flex items-center
+                     justify-center w-fit gap-2 "
+                     >
+                       <MapPin className="w-5 h-5"/>
+                    Endereço da Loja
+                    </a>
+          </div>
+
         </div>
+        </div>
+
+
+        
       </div>
     </section>
   );
