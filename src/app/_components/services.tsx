@@ -1,6 +1,6 @@
 "use client"
 import useEmblaCarousel from 'embla-carousel-react'
-import{ ChevronLeft, ChevronRight,Scissors, Syringe, CartaxiFront, Hotel} from 'lucide-react'
+import{ ChevronLeft, ChevronRight,Scissors, Syringe, CarTaxiFront, Hotel} from 'lucide-react'
 
 
 export function Services() {
