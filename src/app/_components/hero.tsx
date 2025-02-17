@@ -41,7 +41,7 @@ export function Hero(){
                     
                     <div className="mt-8">
                     <p className="text-sm mb-4">
-                        <b className="bg-black text-white px-2 py-1 rounded-md">5%</b> de desconto na primeira compra via whatsapp
+                        <b className="bg-black text-white px-2 py-1 rounded-md">5%</b> de desconto em compras acima de R$99,00!
                     </p>
                     <div className="flex mt-4">
                         <div className="w-32 hidden lg:block">

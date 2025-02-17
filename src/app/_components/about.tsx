@@ -9,6 +9,8 @@ const Check = dynamic(() => import("@phosphor-icons/react").then((mod) => mod.Ch
   ssr: false,
 });
 
+
+
 export function About() {
   return (
     <section className="bg-[#fdf6ec] py-16">
