@@ -6,7 +6,7 @@ import { WhatsappLogo } from '@phosphor-icons/react'
 
 const services = [
   {
-    title: "Banho & Tosa",
+    title: "Banho e Tosa",
     description: "Inclui banho com produtos específicos para o tipo de pelagem e pele do animal, corte de unhas, limpeza das orelhas e tosa personalizada (higiênica ou estilizada).",
     duration: "1h",
     price: "A partir de R$75",
@@ -25,7 +25,7 @@ const services = [
   {
     title: "Hotel para pets",
     description: "Serviço de hospedagem para animais de estimação, ideal para quando os tutores precisam viajar ou se ausentar por alguns dias. Os pets ficam acomodados em espaços seguros, confortáveis.",
-    duration: "1h",
+    duration: "8h",
     price: "$60",
     icon: <Hotel />,
     linkText: 'Olá, vi no site sobre Hotel para pets e gostaria de mais informações.'

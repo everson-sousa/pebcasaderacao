@@ -89,20 +89,26 @@ export function About() {
               </li>
             </ul>
             <div className="flex gap-3">
-              <a
-                href="#"
-                className="bg-orange-500 text-white px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
-              >
-                <WhatsappLogo className="w-5 h-5" />
-                Contato via whatsapp
-              </a>
-              <a
-                href="#"
-                className="text-black px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
-              >
-                <MapPin className="w-5 h-5" />
-                Endereço da Loja
-              </a>
+            <a 
+                        href="https://wa.me/5511962734996?text=Olá,%20vi%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20entregas!" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="bg-orange-500 px-5 py-2 rounded-md font-semibold flex items-center
+                                justify-center w-fit gap-2 text-white hover:bg-orange-600 transition"
+                    >
+                        <WhatsappLogo className="w-5 h-5" />
+                        Contato via WhatsApp
+                    </a>
+                    <a 
+                      href="https://www.google.com/maps?q=Estr.+Takashi+Kobata,+31+-+Jardim+Europa,+Suzano+-+SP,+08696-040" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-red-500 px-5 py-2 rounded-md font-semibold flex items-center
+                                justify-center w-fit gap-2 text-white hover:bg-red-600 transition"
+                  >
+                      <MapPin className="w-5 h-5" />
+                      Ver localização
+                  </a>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
     "@radix-ui/react-slot": "^1.1.2",
+    "aos": "^2.3.4",
     "embla-carousel": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "lucide-react": "^0.475.0",
@@ -20,6 +21,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
