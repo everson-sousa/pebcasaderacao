@@ -4,30 +4,29 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock } from 'lucide-react'
 import { WhatsappLogo } from '@phosphor-icons/react'
 
-const services = [  
-
+const services = [
   {
-    title: "Táxi Pet (Em Breve)",
-    description: "Serviço de transporte para levar e buscar os pets no petshop, clínicas veterinárias ou outros locais. Ideal para tutores que não têm tempo ou transporte adequado para locomover os animais.",
-    duration: "2h",
-    price: "A partir Em Breve",
-    icon: <CarTaxiFront />,
-    linkText: 'Olá, vi no site sobre Táxi Pet e gostaria de mais informações.'
-  },
-{
     title: "Estética Animal",
     description: "Inclui banho com produtos específicos para o tipo de pelagem e pele do animal, corte de unhas, limpeza das orelhas e tosa personalizada (higiênica ou estilizada).",
     duration: "1h",
     price: "A partir de R$75",
     icon: <Scissors />,
-    linkText: 'Olá, vi no site sobre banho, tosa e estética animal e gostaria de mais informações.'
+    linkText: 'Olá, vi no site sobre Banho e tosa e gostaria de mais informações.'
   },
 
+  {
+    title: "Táxi Pet (Em Breve)",
+    description: "Serviço de transporte para levar e buscar os pets no petshop, clínicas veterinárias ou outros locais. Ideal para tutores que não têm tempo ou transporte adequado para locomover os animais.",
+    duration: "2h",
+    price: "Em Breve",
+    icon: <CarTaxiFront />,
+    linkText: 'Olá, vi no site sobre Táxi Pet e gostaria de mais informações.'
+  },
   {
     title: "Hotel para pets (Em Breve)",
     description: "Serviço de hospedagem para animais de estimação, ideal para quando os tutores precisam viajar ou se ausentar por alguns dias. Os pets ficam acomodados em espaços seguros, confortáveis.",
     duration: "8h",
-    price: "$Em breve",
+    price: "Em Breve",
     icon: <Hotel />,
     linkText: 'Olá, vi no site sobre Hotel para pets e gostaria de mais informações.'
   },

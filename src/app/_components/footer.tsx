@@ -67,8 +67,7 @@ export function Footer() {
 
                         <div>
                             <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
-                            {/*<p>Email:eloa.palopoli@hotmail.com</p>*/}
-                            <p>Email:pebcasaderacoes2019@gmail.com</p>
+                            <p>Email:eloa.palopoli@hotmail.com</p>
                             <p>telefone:(11)96273-4996</p>
                             <p>Endereço: Estrada Takashi Kobata, 31 Jardim Europa, Suzano SP</p>
                             
@@ -95,15 +94,12 @@ export function Footer() {
                             </Link>
 
                                
-                           
+
                             </div>
-                            <br></br>
-                            <h4>Desenvolvido por: Everson Almeida WhatsApp (11)98989-3721</h4>
+                            
                         </div>
-                        
                 </footer>
             </div>
-                
         </section>
     )
 
