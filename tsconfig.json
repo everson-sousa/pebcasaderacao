@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    // ... outras configurações
-    "baseUrl": ".", // Importante: define o ponto de partida para os caminhos
+    "baseUrl": ".",
     "paths": {
-      // Este atalho mapeia "@/*" (como '@/utils/...') para "src/*" (como 'src/utils/...')
-      "@/*": [
-        "./src/*"
-      ]
+      // CORREÇÃO: Mapeia o atalho "@/" para a raiz do projeto ("./"),
+      // para que você possa importar usando "@/app/_components/..."
+      "@/*": ["./*"] 
     },
     "target": "ES2017",
     "lib": [
@@ -40,5 +38,4 @@
   "exclude": [
     "node_modules"
   ]
-  // ...
 }
