@@ -67,11 +67,22 @@ export function Footer() {
 
                         <div>
                             <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
-                            <p>Email:eloa.palopoli@hotmail.com</p>
+                            
+                            {/* CORREÇÃO DO E-MAIL: Usando tag <a> dentro de <p> para alinhar */}
+                            <p>
+                                <a 
+                                    href="mailto:pebcasaderacoes2019@gmail.com?subject=Contato&body=Olá,%20quero%20fazer%20um%20orçamento."
+                                    // Removendo o 'ml-2' e garantindo o estilo 'hover:underline'
+                                    className="text-white hover:underline transition-all" 
+                                >
+                                    E-mail:pebcasaderacoes2019@gmail.com
+                                </a>
+                            </p>
+
                             <p>telefone:(11)96273-4996</p>
                             <p>Endereço: Estrada Takashi Kobata, 31 Jardim Europa, Suzano SP</p>
-                            
                         </div>
+                        {/* <p>Email:eloa.palopoli@hotmail.com</p> */}
 
                         <div>
                             <h3 className='text-2xl font-semibold mb-2'>Redes Sociais</h3>
@@ -96,12 +107,8 @@ export function Footer() {
                                
 
                             </div>
-<<<<<<< HEAD
                             <br></br>
                             <h4>Desenvolvido por: Everson Almeida WhatsApp (11)98989-3721</h4>
-=======
-                            
->>>>>>> parent of b509cad (ajuste envio de e-mail)
                         </div>
                 </footer>
             </div>
