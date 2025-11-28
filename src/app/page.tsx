@@ -5,6 +5,7 @@ import { Testimonials } from "./_components/testimonials";
 import { Footer} from "./_components/footer"
 
 export default function Home(){
+  console.log('Chave Pública:', process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
   return(
   <main>
     <Hero/>
