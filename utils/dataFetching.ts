@@ -1,4 +1,4 @@
-// utils/dataFetching.ts (Exemplo)
+//utils/dataFetching.ts (Exemplo)
 
 import { supabase } from '../src/app/../lib/supabase'; // Caminho para o seu cliente Supabase
 

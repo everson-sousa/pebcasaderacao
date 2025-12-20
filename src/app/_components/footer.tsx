@@ -87,13 +87,13 @@ export function Footer() {
                         <div>
                             <h3 className='text-2xl font-semibold mb-2'>Redes Sociais</h3>
                             <div className='flex gap-4'>
-                            {/* <Link 
-                                href="https://www.instagram.com/peb1.9" 
+                         <Link 
+                                href="https://www.instagram.com/pebpetshop/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
                                 <InstagramLogo className="w-8 h-8" />
-                            </Link> */}
+                            </Link> 
 
                             <Link 
                                 href="https://www.facebook.com/p/PB-Casa-de-Ra%C3%A7%C3%B5es-100064794186878/?locale=pt_BR" 

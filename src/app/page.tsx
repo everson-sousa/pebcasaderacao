@@ -28,9 +28,8 @@ import { Testimonials } from "./_components/testimonials";
 
 // 2. Importe a função de busca do servidor.
 // Ajuste o caminho de importação conforme a estrutura correta do seu projeto:
-import { getApprovedTestimonials } from "./../../../pebcasaderacao/utils/dataFetching"
-
-
+//import { getApprovedTestimonials } from "./../../../pebcasaderacao/utils/dataFetching"
+import { getApprovedTestimonials } from "../utils/dataFetching";
 // OBRIGATÓRIO: Torne a função Home assíncrona para usar o await
 export default async function Home() { 
   
