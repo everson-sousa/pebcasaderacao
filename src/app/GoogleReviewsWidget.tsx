@@ -2,7 +2,9 @@
 
 import React from 'react';
 // Certifique-se que o caminho da importação esteja correto para o seu projeto
-import GoogleReviewsWidget from '@/components/GoogleReviewsWidget'; 
+//import GoogleReviewsWidget from '@/components/GoogleReviewsWidget'; 
+import GoogleReviewsWidget from './GoogleReviewsWidget';
+
 
 export default function HomePage() {
   return (
