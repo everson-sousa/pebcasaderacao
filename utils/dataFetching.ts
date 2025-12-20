@@ -1,24 +1,22 @@
-//utils/dataFetching.ts (Exemplo)
-
-import { supabase } from '../src/app/../lib/supabase'; // Caminho para o seu cliente Supabase
+import { supabase } from '../src/lib/supabase'; // Ajuste conforme seu arquivo
 
 export async function getApprovedTestimonials() {
   const { data, error } = await supabase
     .from('testimonials')
-    .select('id, content, fullname, initials, image_url') // Colunas que você precisa
-    .eq('approved', true) // FILTRO ESSENCIAL
-    .order('created_at', { ascending: false });
+    .select('fullname, content, initials, image_url')
+    .eq('approved', true) // Garante que só apareçam os aprovados
+    .order('date', { ascending: false });
 
   if (error) {
-    
-    return []; 
+    console.error('Erro ao buscar:', error);
+    return [];
   }
 
-  // Mapeia para o formato que seu carrossel espera
   return data.map(t => ({
-      content: t.content,
-      author: t.fullname,
-      role: t.initials, // Usamos 'initials' para o campo 'role' no carrossel
-      image: t.image_url || '/placeholder.jpg', // Use uma imagem padrão se não houver URL
+    content: t.content,
+    author: t.fullname,
+    role: t.initials,
+    // Se não houver imagem no banco, usamos um avatar padrão
+    image: t.image_url || '/default-avatar.jpg' 
   }));
 }
