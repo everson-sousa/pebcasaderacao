@@ -1,23 +1,3 @@
-// import { About } from "./_components/about";
-// import { Hero } from "./_components/hero";
-// import {Services} from "./_components/services";
-// import { Testimonials } from "./_components/testimonials";
-// import { Footer} from "./_components/footer"
-
-// export default function Home(){
-//   console.log('Chave Pública:', process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
-//   return(
-//   <main>
-//     <Hero/>
-//     <About/>
-//     <Services/>
-//     <Testimonials/> 
-//     <Footer/>
-//   </main>
-//   )
-// }
-// app/page.tsx
-
 import {About} from "./_components/about";
 import {Hero} from "./_components/hero";
 import {Services} from "./_components/services";
