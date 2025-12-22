@@ -1,13 +1,13 @@
 
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
-import logoImg from '../../../public/peb.png'
+import logoImg from '../../../public/pebnovo.jpg'
 import catImg from "../../../public/cat-hero.png"
 import Image from 'next/image'
 
 
 export function Hero(){
     return(
-       <section className="bg-orange-500 text-white relative overflow-hidden">
+       <section className="bg-black text-white relative overflow-hidden">
         <div>
             <Image
             src={logoImg}
