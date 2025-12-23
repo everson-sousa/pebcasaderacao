@@ -19,6 +19,7 @@
 //     </main>
 //   );
 // }
+// Atualizando para forçar novo build
 import { Hero } from "./_components/hero";
 import { About } from "./_components/about"; // <--- Importamos aqui
 import { Services } from "./_components/services";
